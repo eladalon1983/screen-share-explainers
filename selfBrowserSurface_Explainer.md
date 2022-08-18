@@ -30,7 +30,7 @@ Common Questions
 ### 1. What if video is not requested?
 That’s not really possible. It has been previously specified that calls to getDisplayMedia() return a rejected Promise if video is not requested.
 ### 2. What about other forms of self-capture?
-Out of scope for the time being. But the option has been raised, and may be discussed again in the future
+Out of scope for the time being. But the option has been [raised](https://github.com/w3c/mediacapture-screen-share/issues/209#issuecomment-1048562181), and may be discussed again in the future
 ### 3. What if I don’t specify an explicit value?
 It’s implementation-dependent. To minimize disruption to existing applications, Chrome will initially default to the pre-existing behavior - including the current tab among the options offered to the user.
 
