@@ -13,7 +13,7 @@ Pressing this button changes the target of the tab-capture to the other tab.
 ![image3](https://user-images.githubusercontent.com/22117736/185493245-1476a378-89dd-417d-b16f-08ddc14b43b6.png)
 
 ### Innovation
-We now expose this functionality to the Web at large. Web applications can control whether this button is shown by specifying a value to DisplayMediaStreamConstraints.surfaceSwitching.
+We now expose this functionality to the Web at large. Web applications can control whether this button is shown by specifying a value to `DisplayMediaStreamConstraints.surfaceSwitching`.
 
 * The relevant spec-change is [here](https://github.com/w3c/mediacapture-screen-share/pull/225/files).
 * The resulting text in the spec is [here](https://w3c.github.io/mediacapture-screen-share/#dom-displaymediastreamconstraints-surfaceswitching).
@@ -34,7 +34,7 @@ const stream = await navigator.mediaDevices.getDisplayMedia({
 ## Common Questions
 ### 1. What if my application does not specify an explicit value?
 Chrome will try to guess what’s best for your application. This guess may change between milestones. Initially:
-* If the user chooses the current tab, the [Share this tab instead] button will not be exposed.
-* If the user chooses any other tab, the [Share this tab instead] button will be exposed.
+* If the user chooses the current tab, the [Share this tab instead] button will **not** be exposed.
+* If the user chooses any other tab, the [Share this tab instead] button **will** be exposed.
 ### 2. What about other surfaces? Windows? Monitors?
 At the moment, Chrome only supports fast-switching between shared tabs. In the future, hopefully more.
