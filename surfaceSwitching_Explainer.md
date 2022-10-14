@@ -1,5 +1,4 @@
-## Summary
-### State of the Art (in Chrome)
+## State of the Art (in Chrome)
 When an application calls getDisplayMedia(), and the user chooses to capture a tab, Chrome displays an tab-capture infobar right below the omnibar. When a tab other than the capturing/captured tab is focused, the only button in this infobar is [Stop sharing].
 
 ![image1](https://user-images.githubusercontent.com/22117736/185493207-dd7a5e46-d627-47fc-8e0b-8a7dfe568f3a.png)
@@ -12,7 +11,7 @@ Pressing this button changes the target of the tab-capture to the other tab.
 
 ![image3](https://user-images.githubusercontent.com/22117736/185493245-1476a378-89dd-417d-b16f-08ddc14b43b6.png)
 
-### Innovation
+## Innovation
 We now expose this functionality to the Web at large. Web applications can control whether this button is shown by specifying a value to `DisplayMediaStreamConstraints.surfaceSwitching`.
 
 * The relevant spec-change is [here](https://github.com/w3c/mediacapture-screen-share/pull/225/files).
