@@ -21,9 +21,8 @@ const stream = await navigator.mediaDevices.getDisplayMedia({
 ```
 
 ## Result (Chrome)
-![image1](https://user-images.githubusercontent.com/22117736/185494241-11988b5c-806b-4f7b-a057-ed4004fd5c6b.png)
-![image2](https://user-images.githubusercontent.com/22117736/185494939-51c12aba-19dc-4c04-a015-0c608edb5744.png)
-
+![image1](https://github.com/eladalon1983/screen-share-explainers/assets/22117736/c4c3835a-254b-44d8-b9ca-c719a95ec1dd)
+![image2](https://github.com/eladalon1983/screen-share-explainers/assets/22117736/4e7c4580-3113-4f53-93b5-955daa293ad9)
 
 ## Common Questions
 ### 1. I don’t see system-audio anyway.
