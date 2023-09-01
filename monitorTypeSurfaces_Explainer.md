@@ -1,4 +1,4 @@
-![image](https://github.com/eladalon1983/screen-share-explainers/assets/22117736/32fc8c10-71f5-433b-9ebc-2a8a65d20c39)## Summary
+## Summary
 When `getDisplayMedia()` is called, the browser offers the user a choice of display surfaces: tabs, windows, or monitors. Using the `monitorTypeSurfaces` option, the web application may now hint to the browser if it prefers to include display surfaces whose type is monitor among the choices offered to the user. The browser may still ignore this hint. Web applications are therefore encouraged to still check the displaySurface setting of the tracks they receive.
 
 * The relevant spec-change is [here](https://github.com/w3c/mediacapture-screen-share/pull/274/files).
