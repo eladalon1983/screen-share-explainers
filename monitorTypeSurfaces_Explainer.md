@@ -18,6 +18,6 @@ const stream = await navigator.mediaDevices.getDisplayMedia({
 // We still need to check though...
 const { displaySurface } = stream.getTracks()[0].getSettings();
 if (displaySurface == "monitor") {
-  // User has picked a monitor...
+  throw new Error('User has picked a monitor.');
 }
 ```
