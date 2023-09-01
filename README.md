@@ -5,3 +5,4 @@
 - [suppressLocalAudioPlayback](https://github.com/eladalon1983/screen-share-explainers/blob/main/suppressLocalAudioPlayback_Explainer.md)
 - [surfaceSwitching](https://github.com/eladalon1983/screen-share-explainers/blob/main/surfaceSwitching_Explainer.md)
 - [systemAudio](https://github.com/eladalon1983/screen-share-explainers/blob/main/systemAudio_Explainer.md)
+- [monitorTypeSurfaces](https://github.com/eladalon1983/screen-share-explainers/blob/main/monitorTypeSurfaces_Explainer.md)
